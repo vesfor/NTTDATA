@@ -1,0 +1,15 @@
+package com.microservicio.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.microservicio.api", "com.microservicio.service", "com.microservicio.dto", "com.microservicio.model","com.microservicio.repository"})
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
+}

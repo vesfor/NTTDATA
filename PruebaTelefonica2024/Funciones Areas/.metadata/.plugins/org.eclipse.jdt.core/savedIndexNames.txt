@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\vforeros\3D Objects\PruebaTelefonica2024\Funciones Areas\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2514289514.index
+1213308947.index

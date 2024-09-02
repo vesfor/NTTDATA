@@ -1,0 +1,18 @@
+package com.microservicio.service;
+
+import org.springframework.stereotype.Service;
+
+import com.microservicio.dto.PruebaEstudianteDto;
+
+@Service
+public class PruebaEstudianteService {
+	
+	
+	public PruebaEstudianteDto getPruebaEstudiante() {
+		PruebaEstudianteDto prueba = new PruebaEstudianteDto();
+		
+		
+		return prueba;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.microservicio.api;
+
+@RestController
+@RequestMapping("/api")
+public class PruebaEstudianteController {
+
+	@GetMapping("/hello")
+	public int getPruebaEstudiante() {
+		return 0;
+	}
+}

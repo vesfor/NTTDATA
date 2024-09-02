@@ -1,0 +1,33 @@
+package com.microservicio.api;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/prueba-estudiante")
+public class PruebaEstudianteController {
+	
+	@PostMapping("/create")
+	public String createPruebaEstudiante() {
+		return "Creo una prueba estudiante";
+	}
+
+	@GetMapping("/read")
+	public String readPruebaEstudiante() {
+		return "Leyo una prueba estudiante";
+	}
+	
+	@PutMapping("/update")
+	public String updatePruebaEstudiante() {
+		return "Actualizo una prueba estudiante";
+	}
+	
+	@DeleteMapping("/delete")
+	public String deletePruebaEstudiante() {
+		return "Borro prueba estudiante";
+	}
+}

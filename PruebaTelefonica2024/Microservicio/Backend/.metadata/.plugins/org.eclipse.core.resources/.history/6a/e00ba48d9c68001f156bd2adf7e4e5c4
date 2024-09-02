@@ -1,0 +1,5 @@
+package com.microservicio.dto;
+
+public class PruebaEstudianteDto {
+
+}

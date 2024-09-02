@@ -1,0 +1,24 @@
+package com.microservicio.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.microservicio.dto.PruebaEstudianteDto;
+import com.microservicio.repository.PruebaEstudianteRepository;
+
+@Service
+public class PruebaEstudianteService {
+	
+	@Autowired
+    private PruebaEstudianteRepository repository;
+	
+	public List<PruebaEstudianteDto> getPruebaEstudiante() {
+		PruebaEstudianteDto prueba = new PruebaEstudianteDto();
+		
+		
+		return prueba;
+	}
+
+}
